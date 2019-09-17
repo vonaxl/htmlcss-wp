@@ -123,5 +123,12 @@ footer{
   margin-top: 5px;
   margin-bottom: 5px;
   height: 100px;
-  background-color: gray;
+  background-color: white;
+  text-align: center;
+}
+
+.copyright{
+  padding: 20px;
+  color: gray;
+  font-style: italic;
 }
