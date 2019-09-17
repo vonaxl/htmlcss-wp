@@ -18,15 +18,16 @@ body{
 header{
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color: lightblue;/*debug*/
 }
 
 .fotocontainer{
   background-image: url("../img/headerbg.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
-  height: 100px;
+  height: 200px;
+  border: 5px white solid;
 }
+
+
 .navbar{
   height: 30px;
   background-color: gray;
