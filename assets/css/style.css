@@ -74,6 +74,7 @@ main{
   margin-bottom: 5px;
 }
 
+
 /* contenitore di: feedpagina, contenutoprincipale, widget */
 .floatcontainer{
 }
@@ -82,6 +83,10 @@ main{
   content: "";
   display: table;
   clear: both;
+}
+
+.floatcontainer *{
+  border-radius: 5px;
 }
 
 .feedpagina{
