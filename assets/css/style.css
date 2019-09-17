@@ -14,8 +14,9 @@ p{
   font-size: 13px;
 }
 
-.titlespacer{
+.titles{
   padding-bottom: 15px;
+  color: rgba(103, 68, 22, 0.92)
 }
 .container{
   width: 50vw;
