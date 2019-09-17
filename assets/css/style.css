@@ -6,7 +6,8 @@
   box-sizing: border-box;
 }
 body{
-  background-image: url("../img/bodybg.png")
+  background-image: url("../img/bodybg.png");
+  font-family: sans-serif;
 }
 
 .container{
@@ -25,6 +26,16 @@ header{
   background-size: cover;
   height: 200px;
   border: 5px white solid;
+  position: relative;
+
+}
+
+h4{
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 
