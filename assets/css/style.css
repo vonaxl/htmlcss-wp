@@ -93,7 +93,6 @@ main{
 .contenutoprincipale{
   float: left;
   width: 50%;
-  height: 150px; /*debug*/
   background-color: white;
   margin-left: 5%;
   margin-right: 5%;
