@@ -139,7 +139,6 @@ main{
 footer{
   margin-top: 5px;
   margin-bottom: 5px;
-  height: 100px;
   background-color: white;
   text-align: center;
   color: gray;
@@ -148,10 +147,12 @@ footer{
 .copyright{
   padding: 20px;
   font-style: italic;
+  border-bottom: 2px solid rgba(103, 68, 22, 0.92);
 }
 
 .sociallogo{
   display: inline-block;
+  padding: 30px;
   margin-left: 10%;
   margin-right: 10%;
   font-size: 30px;
