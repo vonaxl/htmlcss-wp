@@ -142,10 +142,17 @@ footer{
   height: 100px;
   background-color: white;
   text-align: center;
+  color: gray;
 }
 
 .copyright{
   padding: 20px;
-  color: gray;
   font-style: italic;
+}
+
+.sociallogo{
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 30px;
 }
