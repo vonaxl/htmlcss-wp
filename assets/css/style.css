@@ -16,13 +16,26 @@ body{
 
 /* PARTE DEDICATA ALLA HEADER */
 header{
-  height: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   background-color: lightblue;/*debug*/
+}
+
+.fotocontainer{
+  background-image: url("../img/headerbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+}
+.navbar{
+  height: 30px;
+  background-color: gray;
 }
 
 /* PARTE DEDICATA ALLA SECTION */
 main{
-  /* height: 600px; */
+  margin-top: 5px;
+  margin-bottom: 5px;
   background-color: lightgreen; /*debug*/
 }
 
@@ -71,6 +84,8 @@ main{
 
 /* PARTE DEDICATA ALLA FOOTER */
 footer{
+  margin-top: 5px;
+  margin-bottom: 5px;
   height: 100px;
   background-color: gray;
 }
