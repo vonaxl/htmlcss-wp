@@ -104,15 +104,15 @@ main{
 .widget{
   float: left;
   width: 20%;
-  padding: 10px;
+  position: relative;
   /* height: 500px; */
   /* background-color: white; */
 }
 
 .wid{
   background-color: white;
-  height: 100px;
   margin-bottom: 20px;
+  padding: 10px;
 }
 
 
