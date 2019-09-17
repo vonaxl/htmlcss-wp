@@ -1,0 +1,73 @@
+/* REGOLE GENERALE DELLA PAGINA */
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 70vw;
+  margin: auto;
+}
+
+/* PARTE DEDICATA ALLA HEADER */
+header{
+  height: 150px;
+  background-color: lightblue;/*debug*/
+}
+
+/* PARTE DEDICATA ALLA SECTION */
+main{
+  /* height: 600px; */
+  background-color: lightgreen; /*debug*/
+}
+
+/* contenitore di: feedpagina, contenutoprincipale, widget */
+.floatcontainer{
+  background-color: green; /*debug*/
+  /* height: 550px; */
+}
+
+.floatcontainer:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.feedpagina{
+  float: left;
+  height: 200px; /*debug*/
+  width: 20%;
+  background-color: white;
+}
+
+.contenutoprincipale{
+  float: left;
+  width: 50%;
+  height: 150px; /*debug*/
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* all'interno ci sono altri blocchi */
+.widget{
+  float: left;
+  width: 20%;
+  /* height: 500px; */
+  /* background-color: white; */
+}
+
+.wid{
+  background-color: white;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+
+/* PARTE DEDICATA ALLA FOOTER */
+footer{
+  height: 100px;
+  background-color: gray;
+}
