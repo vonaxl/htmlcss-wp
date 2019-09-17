@@ -10,8 +10,12 @@ body{
   font-family: sans-serif;
 }
 
+p{
+  font-size: 13px;
+}
+
 .container{
-  width: 60vw;
+  width: 50vw;
   margin: auto;
 }
 
@@ -87,7 +91,6 @@ main{
 
 .feedpaginasite{
   padding: 10px;
-  font-size: 13px;
 }
 
 .contenutoprincipale{
