@@ -85,6 +85,11 @@ main{
   background-color: white;
 }
 
+.feedpaginasite{
+  padding: 10px;
+  font-size: 13px;
+}
+
 .contenutoprincipale{
   float: left;
   width: 50%;
