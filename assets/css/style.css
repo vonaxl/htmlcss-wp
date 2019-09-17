@@ -71,12 +71,10 @@ li a{
 main{
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color: lightgreen; /*debug*/
 }
 
 /* contenitore di: feedpagina, contenutoprincipale, widget */
 .floatcontainer{
-  background-color: green; /*debug*/
 }
 
 .floatcontainer:after{
