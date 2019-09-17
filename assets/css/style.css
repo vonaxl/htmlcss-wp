@@ -83,6 +83,7 @@ main{
   float: left;
   width: 20%;
   background-color: white;
+  padding: 10px;
 }
 
 .feedpaginasite{
@@ -96,12 +97,14 @@ main{
   background-color: white;
   margin-left: 5%;
   margin-right: 5%;
+  padding: 10px;
 }
 
 /* all'interno ci sono altri blocchi */
 .widget{
   float: left;
   width: 20%;
+  padding: 10px;
   /* height: 500px; */
   /* background-color: white; */
 }
