@@ -38,6 +38,17 @@ header{
   text-align: center;
 }
 
+.fototitle{
+  color: white;
+  border: 5px solid white;
+  padding: 10px;
+  margin: 20px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .wordfoto{
   color: white;
   position: absolute;
