@@ -64,28 +64,33 @@ header{
   width: 100%;
 }
 
-ul{
+.navbar ul{
   list-style-type: none;
   overflow: hidden;
 }
 
-ul:after{
+.navbar ul:after{
   content: "";
   display: table;
   clear: both;
 }
 
-li{
+.navbar li{
   float: left;
   width: 14.28%;
   text-align: center;
 }
-li a{
+.navbar a{
   font-size: 12px;
   display: block;
   color: white;
   text-decoration: none;
   line-height: 30px;
+}
+
+.navbar a:hover{
+  background-color: white;
+  color: black;
 }
 
 /* PARTE DEDICATA ALLA SECTION */
