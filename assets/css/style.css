@@ -67,6 +67,12 @@ ul{
   overflow: hidden;
 }
 
+ul:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 li{
   float: left;
 }
