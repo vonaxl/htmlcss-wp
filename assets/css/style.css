@@ -181,3 +181,12 @@ footer{
   margin-right: 10%;
   font-size: 30px;
 }
+
+.sociallogo a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.sociallogo a:hover{
+  color: blue;
+}
