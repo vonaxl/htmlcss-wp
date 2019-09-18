@@ -27,6 +27,7 @@ p{
 header{
   margin-top: 5px;
   margin-bottom: 5px;
+  position: relative;
 }
 
 .fotocontainer{
@@ -60,6 +61,7 @@ header{
 
 .navbar{
   background-color: gray;
+  width: 100%;
 }
 
 ul{
@@ -75,14 +77,15 @@ ul:after{
 
 li{
   float: left;
+  width: 14.28%;
+  text-align: center;
 }
 li a{
   font-size: 12px;
   display: block;
   color: white;
-  text-align: center;
-  padding:10px 16px 10px 16px;
   text-decoration: none;
+  line-height: 30px;
 }
 
 /* PARTE DEDICATA ALLA SECTION */
