@@ -125,6 +125,16 @@ main{
   padding: 10px;
 }
 
+.feedpaginasite a{
+  text-decoration: none;
+  color: green;
+}
+
+.feedpaginasite a p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .contenutoprincipale{
   float: left;
   width: 50%;
